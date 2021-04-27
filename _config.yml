@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your Name IMMERSE's Site
+title: Ryan Johnson's IMMERSE Site
 
-baseurl: "/student_website_template" # the subpath of your site, e.g. /blog
-url: "https://byu-cpe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ryancj14.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   pages:
