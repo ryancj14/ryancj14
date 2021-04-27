@@ -20,7 +20,7 @@
 
 title: Ryan Johnson's IMMERSE Site
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ryancj14" # the subpath of your site, e.g. /blog
 url: "https://ryancj14.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
