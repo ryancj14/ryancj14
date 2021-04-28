@@ -3,6 +3,8 @@ layout: default
 title: IMMERSE Log and Schedule
 ---
 
+***
+
 ## Week 1: April 26, 2021
 
 * **Monday**: Monday Bootcamp and Followup - Set up ssh key - Set up Slack - Meeting w/ Prof. Nelson
@@ -11,7 +13,7 @@ title: IMMERSE Log and Schedule
 * **Thursday**: 
 * **Friday**:
 
----
+***
 
 ## To-Do List
 
