@@ -5,10 +5,10 @@ title: Ryan Johnson's Contributions to SymbiFlow
 
 # SymbiFlow/fpga-tool-perf
 
-#### X [Pull Request #151](https://github.com/SymbiFlow/fpga-tool-perf/pull/151): `--verbose` functionality in `fpgaperf.py` and `exhaust.py`
+### X [Pull Request #151](https://github.com/SymbiFlow/fpga-tool-perf/pull/151): `--verbose` functionality in `fpgaperf.py` and `exhaust.py`
 Opened **16 June 2020**, Closed **1 July 2020**
 
-#### X [Pull Request #176](https://github.com/SymbiFlow/fpga-tool-perf/pull/176): Implementing `--verbose` functionality using logger
+### X [Pull Request #176](https://github.com/SymbiFlow/fpga-tool-perf/pull/176): Implementing `--verbose` functionality using logger
 Opened and Approved **2 July 2020**, Closed **22 July 2020**
 
 ### ✓ [Pull Request #186](https://github.com/SymbiFlow/fpga-tool-perf/pull/186): Using Logger to implement `--verbose` functionality
