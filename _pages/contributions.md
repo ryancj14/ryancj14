@@ -3,7 +3,7 @@ layout: default
 title: Ryan Johnson's Contributions to SymbiFlow
 ---
 
-***
+---
 
 # SymbiFlow/fpga-tool-perf
 
@@ -138,7 +138,7 @@ Modified...
 1. Initially intended to be a cursory formatting improvement for a number of files.
 2. It was requested that I make these formatting improvements standard for the project by adding json and verilog formatters to the `make format` command.
 
-***
+---
 
 # SymbiFlow/symbiflow-examples
 
