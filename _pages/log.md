@@ -28,7 +28,7 @@ title: IMMERSE Log and Schedule
 
 ## Spring/Summer Planned Vacations:
 
-<img src = "{% link images/RyanSchedule.png %}" width="600">
+![]({{ site.baseurl }}{% link images/RyanSchedule.png %})
 * Orange - Working
 * Light Orange - Part-Time
 * Green - Vacation
