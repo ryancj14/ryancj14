@@ -7,17 +7,30 @@ title: IMMERSE Log and Schedule
 
 ## Week 1: April 26, 2021
 
-* **Monday**: Monday Bootcamp and Followup - Set up ssh key - Set up Slack - Meeting w/ Prof. Nelson
-* **Tuesday**: Set up website with Jekyll - Update the website with my log and other information - Find out how the mjson formatter works
+* **Monday**: 
+  * Monday Bootcamp and Followup 
+  * Set up ssh key 
+  * Set up Slack 
+  * Meeting w/ Prof. Nelson
+* **Tuesday**: 
+  * Set up website with Jekyll
+  * Updated the website with my log and other information 
+  * Researched how the mjson formatter works
 * **Wednesday**: 
+  * Added Pictures and more pages to my website.
+  * Immerse Main Meeting
+  * Broader Impacts Bootcamp Meeting
+  * Bootcamp Meeting and Followup
+  * Began Searching through SymbiFlow issues and ideas for potential undergraduate student projects
 * **Thursday**: 
+  * Got help with images on the website through Slack
+  * Searched for Symbiflow issues and ideas for potential undergraduate student projects
 * **Friday**:
+  * 
 
 ---
 
 ## To-Do List
-
-* Find out how the mjson formatter works
 * Implement mjson in my pull request to format json when `make format` is run
 * Find out how the verible formatter works 
 * Implement in my pull request to format systemverilog and verilog when `make format` is run
