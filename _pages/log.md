@@ -5,10 +5,10 @@ title: IMMERSE Log and Schedule
 
 ---
 
-## Week 1: April 26, 2021
+## Week 1: April 26-30, 2021
 
 * **Monday**: 
-  * Monday Bootcamp and Followup 
+  * Monday Bootcamp and Followup on GitHub Website Creation
   * Set up ssh key 
   * Set up Slack 
   * Meeting w/ Prof. Nelson
@@ -20,13 +20,39 @@ title: IMMERSE Log and Schedule
   * Added Pictures and more pages to my website.
   * Immerse Main Meeting
   * Broader Impacts Bootcamp Meeting
-  * Bootcamp Meeting and Followup
+  * Decided on Markdown and Conda contributions to the Bootcamp website
+  * Bootcamp Meeting and Followup on Git
   * Began Searching through SymbiFlow issues and ideas for potential undergraduate student projects
 * **Thursday**: 
   * Got help with images on the website through Slack
   * Searched for Symbiflow issues and ideas for potential undergraduate student projects
 * **Friday**:
-  * 
+  * Went over my resource routing graph research
+  * Met with Ethan to discuss the rr-graph and provide him my research documentation
+  * Bootcamp Meeting and Followup on GitHub
+
+---
+
+## Week 2: May 3-7, 2021
+
+* **Monday**: 
+  * Went through the issues pages of fpga-tool-perf, symbiflow-examples, symbiflow-rr-graph, and other repositories looking for good undergraduate projects. Compiled my findings into the [Project Ideas page]({{ site.baseurl }}{% link _pages/ideas.md %}) of this website.
+  * Monday Bootcamp and Followup on VSCode
+  * ...
+* **Tuesday**: 
+* **Wednesday**: 
+* **Thursday**: 
+* **Friday**:
+
+---
+
+## Week 3: May 10-14, 2021
+
+* **Monday**: 
+* **Tuesday**: 
+* **Wednesday**: 
+* **Thursday**: 
+* **Friday**:
 
 ---
 
