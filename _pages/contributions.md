@@ -7,25 +7,25 @@ title: Ryan Johnson's Contributions to SymbiFlow
 
 # SymbiFlow/fpga-tool-perf
 
-### X [Pull Request #151](https://github.com/SymbiFlow/fpga-tool-perf/pull/151): `--verbose` functionality in `fpgaperf.py` and `exhaust.py`
+### X [Pull Request #151](https://github.com/SymbiFlow/fpga-tool-perf/pull/151): --verbose functionality in fpgaperf.py and exhaust.py
 Opened **16 June 2020**, Closed **1 July 2020**
 
-### X [Pull Request #176](https://github.com/SymbiFlow/fpga-tool-perf/pull/176): Implementing `--verbose` functionality using logger
+### X [Pull Request #176](https://github.com/SymbiFlow/fpga-tool-perf/pull/176): Implementing --verbose functionality using logger
 Opened and Approved **2 July 2020**, Closed **22 July 2020**
 
-### ✓ [Pull Request #186](https://github.com/SymbiFlow/fpga-tool-perf/pull/186): Using Logger to implement `--verbose` functionality
+### ✓ [Pull Request #186](https://github.com/SymbiFlow/fpga-tool-perf/pull/186): Using Logger to implement --verbose functionality
 Opened and Approved **22 July 2020**, Merged **23 July 2020**
 
-Modified `fpgaperf.py`, `exhaust.py`, and `runner.py` / +42 Lines / -5 Lines
-1. Added a logger for both `fpgaperf.py` and `exhaust.py`, that is turned on if --verbose is specified and messages that will be printed through the logger under the DEBUG level.
-2. Changed the default directory to which `exhuast.py` runs will be saved, which fixes an error that comes up whenever there are `fpgaperf.py` runs in the directory where `exhuast.py` is saving its runs.
+Modified fpgaperf.py, exhaust.py, and runner.py / +42 Lines / -5 Lines
+1. Added a logger for both fpgaperf.py and exhaust.py, that is turned on if --verbose is specified and messages that will be printed through the logger under the DEBUG level.
+2. Changed the default directory to which exhuast.py runs will be saved, which fixes an error that comes up whenever there are fpgaperf.py runs in the directory where exhuast.py is saving its runs.
 
 ### ✓ [Pull Request #180](https://github.com/SymbiFlow/fpga-tool-perf/pull/180): Adding New Project Instructions to README
 Opened and Approved **10 July 2020**, Merged **23 July 2020**
 
-Modified `README.md` / +106 Lines / -72 Lines
+Modified README.md / +106 Lines / -72 Lines
 1. Added instructions for inserting a project into fpga-tool-perf.
-2. Changed the ordering of sections in `README.md` for clarity.
+2. Changed the ordering of sections in README.md for clarity.
 
 ### ✓ [Issue #179](https://github.com/SymbiFlow/fpga-tool-perf/issues/179): Problems with Miniconda when Previously Installed
 Opened **10 July 2020**, Closed **27 April 2021**
@@ -125,13 +125,13 @@ Modified `exhaust.py` / +2 / -1
     - If there are no results, then the summary table is still printed, but with no entries, avoiding another error message for dividing by zero. (This fix was associated somewhat with my work in my previous PR and implemented by kamilrakoczy) 
 2. Adds the total number of runs to the summary table at the end of the run for improved clarity for the user.
 
-### ✓ [Pull Request #266](https://github.com/SymbiFlow/fpga-tool-perf/pull/266): exhaust.py - saving table output to a text file
+### - [Pull Request #266](https://github.com/SymbiFlow/fpga-tool-perf/pull/266): exhaust.py - saving table output to a text file
 Opened **12 November 2020**, Merged **soon**
 
 Modified `exhaust.py` / +18 / -0
 1. Saves the table output to the terminal of the most recent exhaust run to a text file, so that you can go back and review it.
 
-### ✓ [Pull Request #282](https://github.com/SymbiFlow/fpga-tool-perf/pull/282): Adding JSON and Verilog Formatters
+### - [Pull Request #282](https://github.com/SymbiFlow/fpga-tool-perf/pull/282): Adding JSON and Verilog Formatters
 Opened **1 December 2020**, Merged **sometime**
 
 Modified...
@@ -146,9 +146,6 @@ Modified...
 1. Updated .gitignore file
 2. Minor syntax corrections
 3. Minor changes to .v and .sdc code for understandability and consistency between projects.
-
-### [Pull Request #---](https://github.com/SymbiFlow/symbiflow-examples/pull/---): Added Up-counter Test
-1. Adding Jason's up-counter test
 
 ----------------------------------
 Initially created by Ryan Johnson, August 2020.
