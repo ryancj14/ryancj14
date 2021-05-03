@@ -71,4 +71,12 @@ title: Symbiflow Project Ideas
 
 ## Other Ideas
 
+[prjxray - Issue #777 - Terminate the looping fuzzers when TODO list stops changing](https://github.com/SymbiFlow/prjxray/issues/777) -- This seems interesting as a possible project within prjxray.
+
+[prjxray - Issue #150 - Add README for all the fuzzers](https://github.com/SymbiFlow/prjxray/issues/150) -- Add a `README.md` file to each fuzzer folder. Get in communication with others to gather info for each readme matching the style of the already existing README files.
+
+[sv-tests - Issue #1346 - Pull request "Compared test results" small feature requests](https://github.com/SymbiFlow/prjxray/issues/1346) -- Going into python and adding some minor features to the printout, like color and totals to make output more readable and interesting.
+
+[symbiflow-arch-defs - Many Issues - 'make env'](https://github.com/SymbiFlow/symbiflow-arch-defs) -- See if `make env` is working. If it isn't, one could use git bisect to find out where it stopped working and get in touch with a contributor to see what they can do to help fix it.
+
 All project managers seem to have in common a desire for better and more streamlined and uniform documentation. Adding to a project's documentation or creating it is a good idea. Make sure it is in the right format and the right place and has all the necessary and relevant information.
