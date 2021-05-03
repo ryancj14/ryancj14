@@ -31,7 +31,17 @@ title: Symbiflow Project Ideas
 
 ## From SymbiFlow/fpga-tool-perf
 
-[Issue #309 - A single JSON file containing all meta.json data would be useful](https://github.com/SymbiFlow/fpga-tool-perf/issues/309) -- This is something that a student would do in python, editing the `exhaust.py` file
+[Issue #309 - A single JSON file containing all meta.json data would be useful](https://github.com/SymbiFlow/fpga-tool-perf/issues/309) -- This is something that a student would do in python, editing the `exhaust.py` file.
+
+[Issue #281 - Reintroduce all.json to merge all tests results](https://github.com/SymbiFlow/fpga-tool-perf/issues/281) -- This one is likely related to the previous issue, so take them both into account and communicate with @acomodi if you work on that.
+
+[Issue #324 - Replace local license checks with the SymbiFlow/actions/checks@main action](https://github.com/SymbiFlow/fpga-tool-perf/issues/324) -- Editing something in the .github folder to add to symbiflow/actions/checks.
+
+[Issue #162 - Documentation for each of the designs tested](https://github.com/SymbiFlow/fpga-tool-perf/issues/162) -- This would be helpful to record the information specified for each design somewhere in the documentation, or atleast add an example for one design, so that others can pick up with the designs they test.
+
+[Issue #3 - Add support for extracting the VPR "routing information table"](https://github.com/SymbiFlow/fpga-tool-perf/issues/3) -- This has been an issue since 2018 and still hasn't been done. It would require intercepting the printed tables in the vpr run and adding them to our printout in fpga-tool-perf
+
+[Issue #22 - Add timeout mechanism](https://github.com/SymbiFlow/fpga-tool-perf/issues/22) -- This has been an issue since 2018 and still hasn't been done. I don't know how this is done, but some research could be done to find out how to implement it.
 
 ---
 
@@ -45,7 +55,7 @@ title: Symbiflow Project Ideas
 
 [Issue #12 - Add linting and formatting checking](https://github.com/SymbiFlow/symbiflow-rr-graph/issues/12) -- This would mean looking at other repos to see how they handle formatting in make format and adding that to this repo. One would need to download the repo and understand exactly what needed formatting.
 
-[Issue #7 - Get documentation up on ReadTheDocs](https://github.com/SymbiFlow/symbiflow-rr-graph/issues/7) -- While I haven't worked on ReadTheDocs documentation before, I think it wouldn't be hard to approach and learn, and then work with collaborators on the best documenation.
+[Issue #7 - Get documentation up on ReadTheDocs](https://github.com/SymbiFlow/symbiflow-rr-graph/issues/7) -- While I haven't worked on ReadTheDocs documentation before, I think it wouldn't be hard to approach and learn, and then work with collaborators on the best documentation.
 
 ---
 
