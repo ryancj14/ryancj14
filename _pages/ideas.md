@@ -47,7 +47,17 @@ title: Symbiflow Project Ideas
 
 ## From SymbiFlow/symbiflow-examples
 
-[Issue #--](https://github.com/SymbiFlow/symbiflow-examples/issues/--)
+[Issue #139 - Documentation: checkout of symbiflow-examples should be part of Installation part](https://github.com/SymbiFlow/symbiflow-examples/issues/139) -- Updating documentation. Not sure exactly what is wanted here, but you'll figure it out if you look into the related issue and dcoumentation.
+
+[Issue #56 - Add Music box example from FPGA4Fun to symbiflow-examples](https://github.com/SymbiFlow/symbiflow-examples/issues/56) -- I don't know exactly the process to add this, but with communication with Tim, you could take this project on.
+
+[Issue #57 - Add all fpga4fun - "FPGA projects - Basic" examples to repository](https://github.com/SymbiFlow/symbiflow-examples/issues/57) -- This would be a continuation of the previous project, adding the rest of the FPGA4Fun examples.
+
+[Issue #59 - Redundant conda download when doing 'make README.rst'](https://github.com/SymbiFlow/symbiflow-examples/issues/59) -- Add the stuff from make README.rst to make env and make any other requested changes here.
+
+[Issue #38 - Convert the README docs to rst and make sure it is included in symbiflow.rtfd.io](https://github.com/SymbiFlow/symbiflow-examples/issues/38) -- Study the symbiflow-examples documentation and communicate with Tim for direction on this project.
+
+[Issue #95 - Improve the quality of images in the sphinx-based documentation](https://github.com/SymbiFlow/symbiflow-examples/issues/95) -- Improve the Spinx documentation, including the images.
 
 ---
 
