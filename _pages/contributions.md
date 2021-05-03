@@ -146,6 +146,3 @@ Modified...
 1. Updated .gitignore file
 2. Minor syntax corrections
 3. Minor changes to .v and .sdc code for understandability and consistency between projects.
-
-----------------------------------
-Initially created by Ryan Johnson, August 2020.
