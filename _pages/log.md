@@ -37,10 +37,18 @@ title: IMMERSE Log and Schedule
 
 * **Monday**: 
   * Went through the issues pages of fpga-tool-perf, symbiflow-examples, symbiflow-rr-graph, and other repositories looking for good undergraduate projects. Compiled my findings into the [Project Ideas page]({{ site.baseurl }}{% link _pages/ideas.md %}) of this website.
-  * Monday Bootcamp and Followup on VSCode
-  * ...
+  * Monday Bootcamp Meeting and Followup on VSCode
+  * Implementing mjson and verible-verilog-format in fpga-tool-perf's 'make env'.
 * **Tuesday**: 
+  * Lots of debugging
+  * Successfully implemented mjson formatter in 'make env'
+  * Successfully implemented verible-verilog-format formatter in 'make env'
 * **Wednesday**: 
+  * Updated pull request and got direction to change the ci test.
+  * Wednesday General Meeting and Presentations
+  * Wednesday Broader Impact Meeting and Followup
+  * Wednesday Bootcamp Meeting and Followup on make
+  * Looking through Tim's project ideas for further information 
 * **Thursday**: 
 * **Friday**:
 
