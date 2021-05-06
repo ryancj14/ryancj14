@@ -80,3 +80,21 @@ title: Symbiflow Project Ideas
 [symbiflow-arch-defs - Many Issues - 'make env'](https://github.com/SymbiFlow/symbiflow-arch-defs) -- See if `make env` is working. If it isn't, one could use git bisect to find out where it stopped working and get in touch with a contributor to see what they can do to help fix it.
 
 All project managers seem to have in common a desire for better and more streamlined and uniform documentation. Adding to a project's documentation or creating it is a good idea. Make sure it is in the right format and the right place and has all the necessary and relevant information.
+
+---
+
+## Tim's Ideas
+
+a) Getting all the test suites running using **SLURM** to improve the speed of testing runs. -- Slurm is an open source, fault-tolerant, and highly scalable cluster management and job scheduling system for large and small Linux clusters. It stands for **S**imple **L**inux **U**tility for **R**esource **M**anagement. An introduction to Slurm can be found [here](https://www.youtube.com/watch?v=NH_Fb7X6Db0), in the form of a 7-part youtube video. There are also some [resoures regarding SLURM from BYU](https://rc.byu.edu/wiki/?id=General+Batch+Information).
+
+b) Testing and debugging more designs with the tools (IE Expanding the symbiflow-examples repository). -- Pretty straight-forward. We can add more symbiflow example designs to the symbiflow-examples repository.
+
+c) More documentation and tests for every primitive and functionality found in the devices (basically you should never need to read the Xilinx documentation XAPPS). -- Not sure what he wants here, but the Xilinx documentation I found when I searched "Xilinx documentation XAPPS" is something I have come across before. I think he just wants everything documented in Symbiflow so that a person never has to go to that Xilinx documentation. This might be referring to improved documentation in the prjxray repository.
+
+d) Improving netlistsvg and other visualization tooling.
+
+A) Get http://projectf.io/ working with SymbiFlow
+
+B) Get http://fpgacpu.ca/fpga/index.html working with SymbiFlow
+
+C) Get GNURadio examples working with SymbiFlow
