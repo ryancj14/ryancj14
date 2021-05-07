@@ -61,11 +61,13 @@ title: Symbiflow Project Ideas
 
 [Issue #95 - Improve the quality of images in the sphinx-based documentation](https://github.com/SymbiFlow/symbiflow-examples/issues/95) -- Improve the Spinx documentation, including the images.
 
+Set up and Run symbiflow-examples and then make a document, if it doesn't exist, on how to add a project and run it using the Symbiflow-examples setup.
+
 ---
 
 ## From SymbiFlow/symbiflow-rr-graph
 
-[Issue #12 - Add linting and formatting checking](https://github.com/SymbiFlow/symbiflow-rr-graph/issues/12) -- This would mean looking at other repos to see how they handle formatting in make format and adding that to this repo. One would need to download the repo and understand exactly what needed formatting.
+[Issue #12 - Add linting and formatting checking](https://github.com/SymbiFlow/symbiflow-rr-graph/issues/12) -- This would mean looking at other repos to see how they handle formatting in make format and adding that to this repo. One would need to download the repo and understand exactly what needed formatting. (Ryan has added some formatting changes to fpga-tool-perf and could help with this)
 
 [Issue #7 - Get documentation up on ReadTheDocs](https://github.com/SymbiFlow/symbiflow-rr-graph/issues/7) -- While I haven't worked on ReadTheDocs documentation before, I think it wouldn't be hard to approach and learn, and then work with collaborators on the best documentation.
 
@@ -75,9 +77,9 @@ title: Symbiflow Project Ideas
 
 [prjxray - Issue #777 - Terminate the looping fuzzers when TODO list stops changing](https://github.com/SymbiFlow/prjxray/issues/777) -- This seems interesting as a possible project within prjxray.
 
-[prjxray - Issue #150 - Add README for all the fuzzers](https://github.com/SymbiFlow/prjxray/issues/150) -- Add a `README.md` file to each fuzzer folder. Get in communication with others to gather info for each readme matching the style of the already existing README files.
+[prjxray - Issue #150 - Add README for all the fuzzers](https://github.com/SymbiFlow/prjxray/issues/150) -- Add a `README.md` file to each fuzzer folder. Get in communication with others to gather info for each readme matching the style of the already existing README files. (Mason documented lots of the information you will need).
 
-[sv-tests - Issue #1346 - Pull request "Compared test results" small feature requests](https://github.com/SymbiFlow/prjxray/issues/1346) -- Going into python and adding some minor features to the printout, like color and totals to make output more readable and interesting.
+[sv-tests - Issue #1346 - Pull request "Compared test results" small feature requests](https://github.com/SymbiFlow/sv-tests/issues/1346) -- Going into python and adding some minor features to the printout, like color and totals to make output more readable and interesting.
 
 [symbiflow-arch-defs - Many Issues - 'make env'](https://github.com/SymbiFlow/symbiflow-arch-defs) -- See if `make env` is working. If it isn't, one could use git bisect to find out where it stopped working and get in touch with a contributor to see what they can do to help fix it.
 
