@@ -97,9 +97,9 @@ d) Improving netlistsvg and other visualization tooling. -- the netlistsvg repos
 
 A) Get http://projectf.io/ working with SymbiFlow -- The referenced website can be reached by [clicking here](http://projectf.io/). Projectf is not just a website. It is essentially a set of introductory modules to using FPGAs. The content of each module is found in a blog post and a corresponding folder of code in [the projf-explore repository](https://github.com/projf/projf-explore). I imagine that Tim wants us to add each module's code to symbiflow-examples, so that people going through the modules will be able to build the designs with Symbiflow.
 
-B) Get http://fpgacpu.ca/fpga/index.html working with SymbiFlow
+B) Get http://fpgacpu.ca/fpga/index.html working with SymbiFlow -- I think this is the same deal as the previous project. Simply add the modules and designs represented by fpgacpu to Symbiflow somewhere.
 
-C) Get GNURadio examples working with SymbiFlow
+C) Get GNURadio examples working with SymbiFlow -- I think this is the same deal as the previous project. Simply add the modules and designs represented by GNURadio to Symbiflow somewhere. [GNURadio homepage](https://www.gnuradio.org/)
 
 ---
 
