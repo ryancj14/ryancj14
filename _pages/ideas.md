@@ -15,7 +15,7 @@ title: Symbiflow Project Ideas
 
 [Issue #56 - SymbiFlow projects documentation audit](https://github.com/SymbiFlow/ideas/issues/56) -- In this task you will perform an audit of documentation in order to verify its completeness, correctness, accuracy and wording. The task will involve close collaboration with developers and engineers to try to anticipate the users’ questions and issues even before they run into them.
 
-[Issue #7 - Create a JSON schema for the Yosys JSON format](https://github.com/SymbiFlow/ideas/issues/7) -- Learn JSON Schema and create one for the jsons created by yosys. Communicate with yosys contributors to know where to add this.
+[Issue #7 - Create a JSON schema for the Yosys JSON format](https://github.com/SymbiFlow/ideas/issues/7) -- Learn JSON Schema and create one for the jsons created by yosys. Communicate with yosys contributors to know where to add this. (P.S netlistsvg, mentioned below in Tim's Ideas, has written up a json schema that could be helpful here. A link to that can be found in the issue.)
 
 [Issue #52 - Open FPGA for absolute beginners](https://github.com/SymbiFlow/ideas/issues/52) -- Gather information and combine it into a guide for newcomers to the world of FPGA chips. After covering the basics, the document would describe the aims of Symbiflow. The Writer would receive guidance, advice, and necessary information from a mentor.
 
@@ -42,6 +42,8 @@ title: Symbiflow Project Ideas
 [Issue #3 - Add support for extracting the VPR "routing information table"](https://github.com/SymbiFlow/fpga-tool-perf/issues/3) -- This has been an issue since 2018 and still hasn't been done. It would require intercepting the printed tables in the vpr run and adding them to our printout in fpga-tool-perf
 
 [Issue #22 - Add timeout mechanism](https://github.com/SymbiFlow/fpga-tool-perf/issues/22) -- This has been an issue since 2018 and still hasn't been done. I don't know how this is done, but some research could be done to find out how to implement it.
+
+[Issue #41 - RTL Schematic View](https://github.com/SymbiFlow/fpga-tool-perf/issues/41) -- This issue relates to Tim's desire for improved netlistsvg and other visualization tools. See that section under Tim's Ideas below for more info.
 
 ---
 
@@ -91,10 +93,24 @@ b) Testing and debugging more designs with the tools (IE Expanding the symbiflow
 
 c) More documentation and tests for every primitive and functionality found in the devices (basically you should never need to read the Xilinx documentation XAPPS). -- Not sure what he wants here, but the Xilinx documentation I found when I searched "Xilinx documentation XAPPS" is something I have come across before. I think he just wants everything documented in Symbiflow so that a person never has to go to that Xilinx documentation. This might be referring to improved documentation in the prjxray repository.
 
-d) Improving netlistsvg and other visualization tooling.
+d) Improving netlistsvg and other visualization tooling. -- the netlistsvg repository can be found [here](https://github.com/nturley/netlistsvg/tree/d6690b668d7c7414304365780cc9aac43d8c7d31). It is one of the third-party downloads made by the symbiflow-arch-defs repository. netlistsvg draws an SVG schematic from a yosys JSON netlist. This can be generated with the write_json command. It uses elkjs for layout. [This website](https://neilturley.dev/netlistsvg/) show a kind of demo, but [the README.md](https://github.com/nturley/netlistsvg/tree/d6690b668d7c7414304365780cc9aac43d8c7d31#netlistsvg) is also helpful. There is a huge discussion about improving netlistsvg and other visualization tooling found in [symbiflow/ideas issue #41](https://github.com/SymbiFlow/ideas/issues/41).
 
-A) Get http://projectf.io/ working with SymbiFlow
+A) Get http://projectf.io/ working with SymbiFlow -- The referenced website can be reached by [clicking here](http://projectf.io/). Projectf is not just a website. It is essentially a set of introductory modules to using FPGAs. The content of each module is found in a blog post and a corresponding folder of code in [the projf-explore repository](https://github.com/projf/projf-explore). I imagine that Tim wants us to add each module's code to symbiflow-examples, so that people going through the modules will be able to build the designs with Symbiflow.
 
 B) Get http://fpgacpu.ca/fpga/index.html working with SymbiFlow
 
 C) Get GNURadio examples working with SymbiFlow
+
+---
+
+## From nturley/netlistsvg
+
+[Issue #104 - Add skins for missing Yosys RTL cells](https://github.com/nturley/netlistsvg/issues/104) -- Adding different images/skins to cells of the yosys json.
+
+[Issue #79 - How to run tests in test](https://github.com/nturley/netlistsvg/issues/79) -- An issue made by Tim. Add to the readme documentation on how to run the tests. It looks like someone already wrote the process. Testing that method and then adding to the readme should be a relatively easy and quick way to help in this repo.
+
+[Issue #64 - Support for nested netlists?](https://github.com/nturley/netlistsvg/issues/64) -- An issue made by Tim. This is already almost done by a large pull request that changes about 1000 lines and adds almost as many. This pull request can be found [here](https://github.com/nturley/netlistsvg/pull/92). After making sense of the original repository, one would want to clone his repo and update it to rebase on top of master, and resolve the conflicts. Get in touch with nturley and make sure it gets through.
+
+[Issue #7 - Allow manual placement of pins](https://github.com/nturley/netlistsvg/issues/64) -- An issue made by Tim. This seems to be a recurring problem in multiple issues, but hasn't been done. It may not be possible to do, but it is probably worth looking into. After reaching a basic understanding of the repo's functionality, maybe start by leaving a comment in this issue asking what you can do, and presenting any initial ideas you have based on your understanding of the repo.
+
+One other thing that could be done is proposing that issues are closed if they aren't actually issues or have been resolved.
