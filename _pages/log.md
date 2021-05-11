@@ -65,7 +65,13 @@ title: IMMERSE Log and Schedule
 ## Week 3: May 10-14, 2021
 
 * **Monday**: 
+  * Bootcamp Followup on CMake
+  * Started Research and Broader Impact Proposal
+  * Bootcamp Meeting and Followup on Python
 * **Tuesday**: 
+  * Finished and Submitted Immerse Research and Broader Impact Proposal
+  * Made a Bootcamp page on Markdown
+  * ...
 * **Wednesday**: 
 * **Thursday**: 
 * **Friday**:
