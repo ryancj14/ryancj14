@@ -103,7 +103,7 @@ title: IMMERSE Log and Schedule
 * Light Orange - Part-Time
 * Green - Vacation
 
----
+
 
 * **May 20th - May 31st**: Trip with my fiance to visit each of our families in Colorado and Arkansas. Will work part-time.
 * **June 12th - June 19th**: Family Lake Powell Trip. Will not have wifi.
