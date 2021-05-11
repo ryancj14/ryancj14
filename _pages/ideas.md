@@ -27,6 +27,8 @@ title: Symbiflow Project Ideas
 
 [Issue #8 - Convert yosys documentation to be sphinx compatible](https://github.com/SymbiFlow/ideas/issues/8) -- Learn Latex and Sphinx and convert the current documentation from Latex to Sphinx. It seems that this may be done or nearly done. If so, get in touch with Tim in the issue asking if there is anything else that needs to be done or if this can be closed.
 
+[Issue #41 - RTL Schematic View](https://github.com/SymbiFlow/ideas/issues/41) -- This issue relates to Tim's desire for improved netlistsvg and other visualization tools. See that section under Tim's Ideas below for more info.
+
 ---
 
 ## From SymbiFlow/fpga-tool-perf
@@ -42,8 +44,6 @@ title: Symbiflow Project Ideas
 [Issue #3 - Add support for extracting the VPR "routing information table"](https://github.com/SymbiFlow/fpga-tool-perf/issues/3) -- This has been an issue since 2018 and still hasn't been done. It would require intercepting the printed tables in the vpr run and adding them to our printout in fpga-tool-perf
 
 [Issue #22 - Add timeout mechanism](https://github.com/SymbiFlow/fpga-tool-perf/issues/22) -- This has been an issue since 2018 and still hasn't been done. I don't know how this is done, but some research could be done to find out how to implement it.
-
-[Issue #41 - RTL Schematic View](https://github.com/SymbiFlow/fpga-tool-perf/issues/41) -- This issue relates to Tim's desire for improved netlistsvg and other visualization tools. See that section under Tim's Ideas below for more info.
 
 ---
 
