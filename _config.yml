@@ -30,6 +30,8 @@ collections:
 
 
 # Build settings
+markdown: kramdown
+enable_coderay: true
 # theme: minima
 # plugins:
 #   - jekyll-feed

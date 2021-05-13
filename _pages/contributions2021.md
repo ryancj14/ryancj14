@@ -24,12 +24,36 @@ Modified `.github/workflows/ci.yml`, `Makefile`, environment files, and automati
 
 # SymbiFlow/symbiflow-examples
 
-### [Pull Request #---](https://github.com/SymbiFlow/symbiflow-examples/pull/---): Adding Python, JSON, and Verilog Formatters
-Opened __soon__, Merged __eventually__
+### [Pull Request #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147): Adding Python, JSON, and Verilog Formatters
+Opened __11 May 2021__, Merged __eventually__
 
-Created `1`, Modified `2` / + / -
+Created `...`, Modified `...` / + / -
 1. Updated .gitignore file
 2. Minor syntax corrections
 3. Added yapf for python formatting
 4. Added mjson for json formatting
 5. Added verible for Verilog and SystemVerilog formatting
+
+---
+
+# SymbiFlow/fpga-interchange-tests
+
+### [Pull Request #147](https://github.com/SymbiFlow/fpga-interchange-tests/pull/147): Adding a Verilog Formatter to the Makefile
+Opened __May 2021__, Merged __eventually__
+
+Created `...`, Modified `...` / + / -
+1. Updated the `Makefile` to include `make format`, an option which would format all the verilog files to a speicific style.
+
+### [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding to the README
+Opened __May 2021__, Merged __eventually__
+
+Created `...`, Modified `...` / + / -
+1. Updated `README.md` to include download and environment install instructions. 
+
+# SymbiFlow/symbiflow-arch-defs
+
+### [Pull Request #147](https://github.com/SymbiFlow/fpga-interchange-tests/pull/147): Adding Formatters to the Makefile
+Opened __May 2021__, Merged __eventually__
+
+Created `...`, Modified `...` / + / -
+1. Updated Makefile to include `make format`, an option which would format all the verilog files to a speicific style.
