@@ -4,7 +4,7 @@ toc: true
 title: About
 ---
 
-My name is Ryan Christopher Johnson. I'm a senior, studying Computer Engineering, planning on going to graduate school here at BYU. I love watermelon, entertainment (Books, Movies, Board Games, etc.), and anything outdoors.
+My name is Ryan Christopher Johnson. I'm a senior, studying Computer Engineering and planning on going to graduate school here at BYU. I love watermelon, entertainment (Books, Movies, Board Games, etc.), and anything outdoors.
 
 <img src="{{ site.baseurl }}{% link images/RyanImage.jpg %}" width="350">
 
