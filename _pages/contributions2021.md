@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+toc: true
 title: Ryan Johnson's Contributions to SymbiFlow
 ---
 
