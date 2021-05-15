@@ -89,7 +89,7 @@ Some terminology:
 
 These can be visualized with the following image:
 
-<img src = "{% link media/conda-4.jpg %}" width="600">
+<img src = "{% link images/conda-4.jpg %}" width="600">
 
 To get and install `Miniconda`:
 ```
