@@ -8,4 +8,5 @@ title: My Pages
   * [Contributions 2021]({{ site.baseurl }}{% link _pages/contributions2021.md %})
   * [About]({{ site.baseurl }}{% link _pages/about.md %})
   * [Project Ideas]({{ site.baseurl }}{% link _pages/ideas.md %})
+  * [Bootcamp Contributions]({{ site.baseurl }}{% link _pages/bootcamp_ideas.md %})
   
