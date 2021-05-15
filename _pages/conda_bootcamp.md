@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 toc: true
 title: Python Packages/Environments
 slug: pythonEnvs
@@ -89,7 +89,7 @@ Some terminology:
 
 These can be visualized with the following image:
 
-<img src="{{ site.baseurl }}{% link images/conda-4.jpg %}" width="500">
+<img src = "{% link media/conda-4.jpg %}" width="600">
 
 To get and install `Miniconda`:
 ```

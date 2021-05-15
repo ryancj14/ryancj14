@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 toc: true
 title: Symbiflow Project Ideas
 ---

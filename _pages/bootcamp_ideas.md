@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+toc: true
 title: Bootcamp Ideas
 ---
 
