@@ -108,7 +108,7 @@ title: IMMERSE Log and Schedule
 
 * **May 20th - May 31st**: Trip with my fiance to visit each of our families in Colorado and Arkansas. Will work part-time.
 * **June 12th - June 19th**: Family Lake Powell Trip. Will not have wifi.
-* **July 21st - July 30th**: Wedding. We travel to Washington State on the 21st. I get married on the 24th followed by our honeymoon in Mexico until the 30th.
+* **July 20st - July 30th**: Wedding. We travel to Washington State on the 20th. I get married on the 24th followed by our honeymoon in Mexico until the 30th.
 * **August 14th - August 21st**: Family Trip to Florida.
 
 ---

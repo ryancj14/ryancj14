@@ -20,7 +20,7 @@ I will add a 'Getting Started' page on Markdown, just for beginners to have some
 
 ### Conda
 
-I will add to the Python packages/environments page, to make it look good, include useful figures, and help the students use conda.
+I will add to the Python packages/environments page, to make it look good, include useful figures, and help the students use conda. I will also look at Symbiflow's make-env to see if I should add anything from there.
   * [My Previous Conda Notes]({{ site.baseurl }}{% link _pages/conda.md %})
   * [Python packages/environments Bootcamp Page Progress]({{ site.baseurl }}{% link _pages/conda_bootcamp.md %})
 
