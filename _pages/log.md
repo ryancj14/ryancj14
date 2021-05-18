@@ -78,12 +78,15 @@ title: IMMERSE Log and Schedule
   * Wednesday General Meeting and Presentations
   * Wednesday Broader Impact Meeting and Followup
   * Wednesday Bootcamp Meeting and Followup on Python Environments
-  * ...
+  * Additions to website notes and pages related to Broader Impact
 * **Thursday**: 
-  * ...
+  * Updated pull requests
+  * Started making my changes to the conda page
+  * Debugged the website errors and made changes to try to get it working
 * **Friday**:
   * Friday Bootcamp Meeting and Followup on Useful Python Packages
-  * ...
+  * Got help with my website from Dr. Goeders
+  * 
 
 ---
 
@@ -94,6 +97,7 @@ title: IMMERSE Log and Schedule
   * Was assigned the fpga interchange project, where I will work with Ethan to plug a folded graph representation into RapidWright
   * Studied interchange project and installed RapidWright and interchange
   * Studied common configuration repo project and took notes on website
+  * Additions of website notes and pages related to new projects
   * Symbiflow-examples pull request ([PR #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147)) was merged
 * **Tuesday**: 
 * **Wednesday**: 
