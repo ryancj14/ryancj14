@@ -46,9 +46,9 @@ title: IMMERSE Log and Schedule
   * Successfully implemented mjson formatter in 'make env'
   * Successfully implemented verible-verilog-format formatter in 'make env'
 * **Wednesday**: 
-  * Updated pull request and got direction to change the ci test
-  * Finalized pull request (ready for merge)
-  * Prepared another pull request (ready for merge)
+  * Updated fpga-tool-perf pull request and got direction to change the ci test
+  * Finalized fpga-tool-perf pull request ([PR #282](https://github.com/SymbiFlow/fpga-tool-perf/pull/282))(ready for merge)
+  * Finalized another fpga-tool-perf pull request ([PR #266](https://github.com/SymbiFlow/fpga-tool-perf/pull/266))(ready for merge)
   * Wednesday General Meeting and Presentations
   * Wednesday Broader Impact Meeting and Followup
   * Wednesday Bootcamp Meeting and Followup on make
@@ -58,7 +58,7 @@ title: IMMERSE Log and Schedule
   * Reviewed Tim's project ideas for further information -- netlistsvg and projectf
 * **Friday**:
   * Reviewed Tim's project ideas for further information -- fpgacpu and gnuradio
-  * Meeting w/ Professor Nelson and Jason reviewing my researched project ideas.
+  * Meeting w/ Professor Nelson and Jason reviewing my researched project ideas
   * Friday Bootcamp Meeting on CMake
 
 ---
@@ -68,18 +68,41 @@ title: IMMERSE Log and Schedule
 * **Monday**: 
   * Bootcamp Followup on CMake
   * Started Research and Broader Impact Proposal
-  * Bootcamp Meeting and Followup on Python
+  * Monday Bootcamp Meeting and Followup on Python
 * **Tuesday**: 
   * Finished and Submitted Immerse Research and Broader Impact Proposal
-  * Made a Bootcamp page on Markdown
+  * Started a Bootcamp page on Markdown
+  * Finalized symbiflow-examples formatters pull request ([PR #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147))
+  * Worked on fpga-interchange-tests and symbiflow-arch-defs pull requests
+* **Wednesday**: 
+  * Wednesday General Meeting and Presentations
+  * Wednesday Broader Impact Meeting and Followup
+  * Wednesday Bootcamp Meeting and Followup on Python Environments
   * ...
+* **Thursday**: 
+  * ...
+* **Friday**:
+  * Friday Bootcamp Meeting and Followup on Useful Python Packages
+  * ...
+
+---
+
+## Week 4: May 17-21, 2021
+
+* **Monday**: 
+  * Meeting with Prof. Nelson and Jason reviewing their researched project ideas
+  * Was assigned the fpga interchange project, where I will work with Ethan to plug a folded graph representation into RapidWright
+  * Studied interchange project and installed RapidWright and interchange
+  * Studied common configuration repo project and took notes on website
+  * Symbiflow-examples pull request ([PR #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147)) was merged
+* **Tuesday**: 
 * **Wednesday**: 
 * **Thursday**: 
 * **Friday**:
 
 ---
 
-## Week 4: May 17-21, 2021
+## Week 5: May 24-28, 2021
 
 * **Monday**: 
 * **Tuesday**: 

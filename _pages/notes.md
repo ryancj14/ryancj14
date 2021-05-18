@@ -11,9 +11,9 @@ title: Symbiflow Project Notes
 This project is related to Symbiflow ideas Issue #51 and others to add lots of 
 [Issue #51 - ](https://github.com/SymbiFlow/ideas/issues/51) --
 
-This issue is a compilation of issues #50, #49,  ...
+This issue is a compilation of issues #50, #49, and other needed additions into one idea issue.
 [Issue #50 - Add an .editorconfig file to all SymbiFlow repositories](https://github.com/SymbiFlow/ideas/issues/50) 
-[Issue #14 - ](https://github.com/SymbiFlow/ideas/issues/14) 
+[Issue #49 - Create a symbiflow-sphinx-docs-common repository](https://github.com/SymbiFlow/ideas/issues/49) 
 
 Steps:
 * Add a comment on issue #51, and tag Tim
