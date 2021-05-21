@@ -1,6 +1,10 @@
 ---
+title: Home
 layout: default
-title: My Pages
+wrapper_class: home-image
+sidebar_closed: false
+---
+
 ---
 
   * [IMMERSE Log]({{ site.baseurl }}{% link _pages/log.md %})

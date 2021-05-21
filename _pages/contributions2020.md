@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
 toc: true
-title: Ryan Johnson's Contributions to SymbiFlow
+title: 2020 SymbiFlow Contributions
+slug: contributions2020
+type: contributions
 ---
 
 ---

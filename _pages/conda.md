@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
 toc: true
 title: Conda
+slug: conda
+type: bootcamp
 ---
 
 ---

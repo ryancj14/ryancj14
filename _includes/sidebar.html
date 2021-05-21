@@ -1,0 +1,69 @@
+<!-- Sidebar -->
+<div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-sticky">
+        <div class="sidebar-heading-big">
+            <a href="{{ site.baseurl }}/"><img src="{% link icons/logo.png %}" width="50"> <img
+                    src="{% link icons/sidebar_title.png %}" width="200">
+            </a>
+        </div>
+
+
+        <a href="{% link _pages/about.md %}"
+            class="list-group-item list-group-item-action bg-light sidebar-schedule sidebar-item">
+            <span class="badge badge-pill badge-dark-grey"></span>
+            About
+        </a>
+        <a href="{% link _pages/log.md %}"
+            class="list-group-item list-group-item-action bg-light sidebar-item">
+            <span class="badge badge-pill badge-dark-grey"></span>
+            Log
+        </a>
+
+        {% assign self_paced_sorted = site.pages | sort : "order" %}
+
+        {% for group in site.data.groups %}
+        <div class="card">
+
+            <div class="sidebar-heading-big btn-link collapsed" data-toggle="collapse"
+                data-target="#collapse{{group.key}}" aria-expanded="{{group.expanded}}"
+                aria-controls="collapse{{group.key}}">
+                {{group.title}}
+            </div>
+
+            <div id="collapse{{group.key}}" class="collapse">
+                <div class="list-group list-group-flush">
+                    {% for item in self_paced_sorted %}
+                    {% if item.type == {{group.key}} %}
+                    <a href="{{ site.baseurl }}{{item.url}}"
+                        class="list-group-item list-group-item-action bg-light sidebar-item">
+                        <span class="badge badge-pill badge-dark-grey">{{ item.number }}</span>
+                        {{ item.title }}
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+        <!-- <div class="sidebar-heading-big"></div>
+        <div class="card">
+            <div class="sidebar-heading-big btn-link " data-toggle="collapse" data-target="#collapseResources"
+                aria-expanded="{{group.expanded}}" aria-controls="collapseResources">
+                Resources </div>
+            <div id="collapseResources" class="collapse show ">
+                <div class="list-group list-group-flush">
+                    {% for item in site.resources %}
+                    <a href="{{ site.baseurl }}{{item.url}}"
+                        class="list-group-item list-group-item-action bg-light sidebar-item">
+                        <span class="badge badge-pill badge-dark-grey">{{ item.number }}</span>
+                        {{ item.title }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>
+<!-- /#sidebar-wrapper -->

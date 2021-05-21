@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 toc: true
 title: Python Packages/Environments
-slug: pythonEnvs
-type: development
-order: 7
+slug: bootcamp-conda
+type: bootcamp
 ---
 
 ---

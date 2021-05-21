@@ -7,52 +7,76 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: "Immerse Computing Bootcamp"
+class_name: Bootcamp
+class_number: Bootcamp
+email: brentnelson@byu.edu
+description: This is the lab website for the Immerse bootcamp.
+baseurl: "/ComputingBootCamp" # the subpath of your site, e.g. /blog
+url: "https://byu-cpe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
 
-title: Ryan Johnson's IMMERSE Site
+# Build settings
+markdown: kramdown
+#highlighter: rouge
+enable_coderay: true
 
-baseurl: "/ryancj14" # the subpath of your site, e.g. /blog
-url: "https://ryancj14.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#plugins:
+#  - jekyll-feed
+
+# Turn on the button to allow students to submit PRs to change a page
+suggest_edits:
+  enable: true
+
+# Set the fonts
+fonts:
+  base: "'neue-haas-unica', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  # header: "omnium, sans-serif"
+  # If you want a more traditional font, consider using this instead:
+  header: "'Exo 2', sans-serif"
 
 collections:
+  selfpaced:
+    output: true
+    permalink: /tutorials/:title/
   pages:
     output: true
     permalink: /:collection/:name/
 
 
-# Build settings
-markdown: kramdown
-enable_coderay: true
-# theme: minima
-# plugins:
-#   - jekyll-feed
-
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - icon.ai
+  - Dockerfile
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lab_0.io
+  - old/
+  - labsTBD/
+  - unusedPages/
+  - powerpointExcelWord/
+  - README.md
+  - README_ECEn220.md
+  - TODO_items.md
+  - JOURNAL.md
+  - LINKCHECK.md
+  - Makefile
+  - faculty/
 
+# I have the compiled files being put into _site since I often mistakenly open it since it is in the middle of my files list.
+# Changing it to get it at the top of the list to avoid that
+destination: _0site

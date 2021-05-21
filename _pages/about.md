@@ -1,7 +1,8 @@
 ---
-layout: default
-toc: true
+layout: page
+toc: false
 title: About
+slug: about
 ---
 
 My name is Ryan Christopher Johnson. I'm a senior, studying Computer Engineering and planning on going to graduate school here at BYU. I love watermelon, entertainment (Books, Movies, Board Games, etc.), and anything outdoors.
