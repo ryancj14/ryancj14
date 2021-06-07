@@ -80,13 +80,13 @@ I am aware that recently they have been trying to dump device descriptions of bi
 
 Steps:
 * Install capnp-java and RapidWright to my computer, following instructions from Reilly.
-  * https://github.com/byuccl/gmt/tree/master/interchange/docs
+  * [https://github.com/byuccl/gmt/tree/master/interchange/docs](https://github.com/byuccl/gmt/tree/master/interchange/docs)
 * Find related repositories and information:
-  * https://github.com/byuccl/gmt -- Private byu repo for the GMT project.
-  * https://github.com/SymbiFlow/python-fpga-interchange - This python module is designed to read and write FPGA interchange files, and provide some interoperability with other common formats.
-  * https://github.com/byuccl/python-fpga-interchange - Fork of python-fpga-interchange being worked on by reillymck.
-  * https://github.com/SymbiFlow/fpga-interchange-schema - This repository contains the capnp schema for the FPGA interchange. Cloned inside RapidWright in the interchange folder. Also used by python-fpga-interchange.
-  * https://github.com/SymbiFlow/fpga-interchange-tests - This repository contains end-to-end tests to verify the correctness of the whole FPGA interchange flow.
+  * [https://github.com/byuccl/gmt](https://github.com/byuccl/gmt) -- Private byu repo for the GMT project.
+  * [https://github.com/SymbiFlow/python-fpga-interchange](https://github.com/SymbiFlow/python-fpga-interchange) - This python module is designed to read and write FPGA interchange files, and provide some interoperability with other common formats.
+  * [https://github.com/byuccl/python-fpga-interchange](https://github.com/byuccl/python-fpga-interchange) - Fork of python-fpga-interchange being worked on by reillymck.
+  * [https://github.com/SymbiFlow/fpga-interchange-schema](https://github.com/SymbiFlow/fpga-interchange-schema) - This repository contains the capnp schema for the FPGA interchange. Cloned inside RapidWright in the interchange folder. Also used by python-fpga-interchange.
+  * [https://github.com/SymbiFlow/fpga-interchange-tests](https://github.com/SymbiFlow/fpga-interchange-tests) - This repository contains end-to-end tests to verify the correctness of the whole FPGA interchange flow.
 * What does interchange contain to describe FPGA Devices?
   * ...
 * How do you generate device descriptions? How do you load them into other tools such as C++ and Python?
