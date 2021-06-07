@@ -18,7 +18,7 @@ class_name: ryancj14
 class_number: ryancj14
 email: ryancj14@gmail.com
 description: This is the lab website for the Immerse bootcamp.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/ryancj14" # the subpath of your site, e.g. /blog
 url: "https://ryancj14.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
@@ -42,9 +42,6 @@ fonts:
   header: "'Exo 2', sans-serif"
 
 collections:
-  selfpaced:
-    output: true
-    permalink: /tutorials/:title/
   pages:
     output: true
     permalink: /:collection/:name/
