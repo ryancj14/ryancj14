@@ -34,12 +34,19 @@ Prof Nelson's description:
 Steps:
 * Add a comment on issue #51, and tag Tim
   * My Comment: @mithro This seems like a project we could take on here at BYU. We would start a reasonably new student on it. Our idea is that we will create a new repo that will serve as a container for the items on your checklist, and start our student on adding items to the repo. This project would continue throughout the summer, and anything that isn't done by our student could be added by other SymbiFlow contributors in the future. Our student would probably start by adding the .editorconfig file and some 'documentation around policies' items. Do you think this will be useful? Do you have any other thoughts/direction for us?
-  * Tim's Response: 
-* Study the existing issues and resources, including make-env and git-trees.
-  * ...
+  * Tim's Response: ... none
 * Create the repository.
-  * https://github.com/ryancj14/common-config
-* 
+  * [https://github.com/ryancj14/common-config](https://github.com/ryancj14/common-config)
+* Xan's working repository
+  * [https://github.com/xanjohns/common-config](https://github.com/xanjohns/common-config)
+* Add some of the easy stuff
+  * Contributing
+  * License
+  * Code of Conduct
+  * ...
+* Start up the official repository in symbiflow
+* We want to update the files of each repo to match common-config using a bot or a python script (the bot would automatically submit a pull request to each repo as it needed to be updated.)
+* Is this a submodule or a subtree (what is make-env to each repo?)
 
 # Interchange project
 
