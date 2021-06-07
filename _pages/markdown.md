@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
 toc: true
 title: Markdown
+slug: markdown
+type: bootcamp
 ---
 
 ---

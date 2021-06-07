@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
 toc: true
-title: Symbiflow Project Ideas
+title: Project Ideas
+slug: project-ideas
+type: projects
 ---
 
 ---

@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
 toc: true
-title: Ryan Johnson's Contributions to SymbiFlow
+title: 2021 SymbiFlow Contributions
+slug: contributions2021
+type: contributions
 ---
 
 ---
@@ -28,7 +30,7 @@ Modified `Makefile`, `.github/workflows/ci.yml`, 3 `environment.yml` files, a `r
 
 # SymbiFlow/symbiflow-examples
 
-### [Pull Request #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147): Adding Python, JSON, and Verilog Formatters
+### ✓ [Pull Request #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147): Adding Python, JSON, and Verilog Formatters
 Opened __11 May 2021__, Merged __17 May 2021__
 
 Created `Makefile` and `.style.yapf`, and Modified `environment.yml`, `requirements.txt`, `.gitignore`, a json file, 2 python files, and 10 verilog files / +16,609 / -16,200
@@ -43,13 +45,13 @@ Created `Makefile` and `.style.yapf`, and Modified `environment.yml`, `requireme
 
 # SymbiFlow/fpga-interchange-tests
 
-### [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding a Verilog Formatter to the Makefile
+### - [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding a Verilog Formatter to the Makefile
 Opened __May 2021__, Merged __eventually__
 
 Created `...`, Modified `...` / + / -
 1. Updated the `Makefile` to include `make format`, an option which would format all the verilog files to a speicific style.
 
-### [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding to the README
+### - [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding to the README
 Opened __May 2021__, Merged __eventually__
 
 Created `...`, Modified `...` / + / -
@@ -59,7 +61,7 @@ Created `...`, Modified `...` / + / -
 
 # SymbiFlow/symbiflow-arch-defs
 
-### [Pull Request #---](https://github.com/SymbiFlow/symbiflow-arch-defs/pull/---): Adding Formatters to the Makefile
+### - [Pull Request #---](https://github.com/SymbiFlow/symbiflow-arch-defs/pull/---): Adding Formatters to the Makefile
 Opened __May 2021__, Merged __eventually__
 
 Created `...`, Modified `...` / + / -

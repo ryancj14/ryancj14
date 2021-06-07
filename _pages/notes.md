@@ -1,12 +1,14 @@
 ---
-layout: default
+layout: page
 toc: true
-title: Symbiflow Project Notes
+title: Project Notes
+slug: project-notes
+type: projects
 ---
 
 ---
 
-# Xan's Project
+# common-config repository project
 
 This project is related to Symbiflow ideas Issue #51 and others to add lots of 
 [Issue #51 - Create a "common configuration" git repository which is auto-merged into SymbiFlow projects](https://github.com/SymbiFlow/ideas/issues/51).
@@ -19,15 +21,15 @@ This issue is a compilation of issues #50, #49, and other needed additions into 
 
 Prof Nelson's description:
 
-Here is a short description of the project you are being assigned to:
-
-Symbiflow aims to produce a completely open source FPGA design toolchain.  They have a large presence on github where they have many repositories (73 to be exact), where each repository roughly corresponds to one project.  One of the challenges is with such a large effort is imposing some order and uniformity on the various repositories so that they all use the same code formatting, copyright licensing, documentation style, etc.  One of the open issues they have relates to creating a single common configuration github repository which is then included into every other repository to provide the desired uniformity.  This project focuses on creating such a common configuration repository and modifying all other repositories to use it.
-
-Completing the project will require you to become educated on github and git to a deep level (specifically regarding git subtrees), coding standards, tools for formatting code in various languages, python environments, etc.  And, much of this standardization will be enforced via continuous integration tools (like discussed yesterday at the beginning of the Prof Goeders’ talk on Github Actions although Symbiflow uses a different CI framework).   In this work you will end up working with other members of the open source community both at Google as well as others around the world.  
-
-The end product of your work will be a standardizaton of the symbiflow github repositories with regards to .editorconfig files, copyright/license checking tools, auto-formatting tools, code of conduct, contribution guides, documtation, and python environments.  You can read more about this at  https://github.com/SymbiFlow/ideas/issues/51.
-
-You will be supervised in this work by Ryan Johnson, a 2nd year Immerse student who has been working with Symbiflow for the past year.  I believe you will very much working with Ryan - he is an excellent student and has significant experience with this project. I have CC-ed him on this email.  Please contact him to discuss the project and how you can get started.  Our hope is you can start to ramp up effort on the project as boot camp starts to ramp down in the coming days.
+>Here is a short description of the project you are being assigned to:
+>
+>Symbiflow aims to produce a completely open source FPGA design toolchain.  They have a large presence on github where they have many repositories (73 to be exact), where each repository roughly corresponds to one project.  One of the challenges is with such a large effort is imposing some order and uniformity on the various repositories so that they all use the same code formatting, copyright licensing, documentation style, etc.  One of the open issues they have relates to creating a single common configuration github repository which is then included into every other repository to provide the desired uniformity.  This project focuses on creating such a common configuration repository and modifying all other repositories to use it.
+>
+>Completing the project will require you to become educated on github and git to a deep level (specifically regarding git subtrees), coding standards, tools for formatting code in various languages, python environments, etc.  And, much of this standardization will be enforced via continuous integration tools (like discussed yesterday at the beginning of the Prof Goeders’ talk on Github Actions although Symbiflow uses a different CI framework).   In this work you will end up working with other members of the open source community both at Google as well as others around the world.  
+>
+>The end product of your work will be a standardizaton of the symbiflow github repositories with regards to .editorconfig files, copyright/license checking tools, auto-formatting tools, code of conduct, contribution guides, documtation, and python environments.  You can read more about this at  https://github.com/SymbiFlow/ideas/issues/51.
+>
+>You will be supervised in this work by Ryan Johnson, a 2nd year Immerse student who has been working with Symbiflow for the past year.  I believe you will very much working with Ryan - he is an excellent student and has significant experience with this project. I have CC-ed him on this email.  Please contact him to discuss the project and how you can get started.  Our hope is you can start to ramp up effort on the project as boot camp starts to ramp down in the coming days.
 
 Steps:
 * Add a comment on issue #51, and tag Tim

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 toc: true
-title: IMMERSE Log and Schedule
+title: 2021 Immerse Log
+slug: immerse-log
 ---
 
 ---
@@ -124,7 +125,7 @@ title: IMMERSE Log and Schedule
 
 ---
 
-## Spring/Summer Planned Vacations:
+## Spring/Summer Planned Vacations
 
 ![]({{ site.baseurl }}{% link images/RyanSchedule.png %})
 * Orange - Working
@@ -135,12 +136,12 @@ title: IMMERSE Log and Schedule
 
 * **May 20th - May 31st**: Trip with my fiance to visit each of our families in Colorado and Arkansas. Will work part-time.
 * **June 12th - June 19th**: Family Lake Powell Trip. Will not have wifi.
-* **July 20st - July 30th**: Wedding. We travel to Washington State on the 20th. I get married on the 24th followed by our honeymoon in Mexico until the 30th.
+* **July 20st - July 30th**: Wedding. We travel to Washington State on the 20th and get married on the 24th followed by our honeymoon in Mexico until the 30th.
 * **August 14th - August 21st**: Family Trip to Florida.
 
 ---
 
-## Weekly Schedule:
+## Weekly Schedule
 I'll be working Monday-Friday, usually: 8am - 12pm and 1pm - 5pm.
 
 Ocassionally, I will work morning hours on Saturday due to other activities or vacation hours from the previous week or the next week. On these Saturdays and other part-time days, I will work 2-4 hours.
