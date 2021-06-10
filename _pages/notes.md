@@ -92,3 +92,10 @@ Steps:
 * How do you generate device descriptions? How do you load them into other tools such as C++ and Python?
 * How would you write out a list of all tiles or sites or nodes to a file from a device description that comes from Interchange?
 * How can we modify Ethan’s folding code for nodes and wires to pull its information from Interchange rather than from the SQL database that litghost’s sample code originally did?
+
+* Add a new schema to include the new representation.
+- fpga-interchange-schema will be used to include the new folded routing schema
+- rapidWright java code
+- python-fpga-interchange will be used to analyze/capture information
+
+I have followed the instructions provided by Reilly and it went well. I believe my computer does not have enough space to complete a device representation generated from following his directions, so now I will pull one of my 220 designs to build in Rapidwright, hoping to pull out the main site. 
