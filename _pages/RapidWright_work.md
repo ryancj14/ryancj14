@@ -78,3 +78,16 @@ A similar schema class can be found in `LogicalNetlist.java`, `References.java`,
 - do the same with a device representation.
 - Take ethan's python code and where he uses sql replace it with python into queries into the interchange format.
 - when you verify ethan's new folded representation 
+
+---
+
+### Meeting w/ Reilly
+
+- xdlrc has all the tiles and wires and everything. Corey has been looking at what bits turn on what features.
+- xdlrc shows everything could possibly be used. xilinx stopped using xdlrc files. Reilly is generating an xdlrc file from an interchange device resources file.
+- Create interchange format with RapidWright. Held in an interchange schema. 
+- device-resources.py has python stuff for the device resources. located in python-interchange. Other members can still be accessed through capnp.
+- 95% of Reilly's code uses device-resources.py and 5% accesses directly from capnp using python.
+- export design to a dcp and an edf and then 
+- Update Rapidwright using directions on the project readme
+- you can update email to automatically move emails related to symbiflow to a seperate inbox.
