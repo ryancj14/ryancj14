@@ -6,7 +6,7 @@ slug: rapidwright-notes
 type: projects
 ---
 
-### Running interchange to read a dcp file and write it back out
+### Task: Run interchange to read a dcp file and write it back out
 
 Commands in bash and tcl to achieve result:
 ```
@@ -91,3 +91,43 @@ A similar schema class can be found in `LogicalNetlist.java`, `References.java`,
 - export design to a dcp and an edf and then 
 - Update Rapidwright using directions on the project readme
 - you can update email to automatically move emails related to symbiflow to a seperate inbox.
+- see if you can remove the raw references from xdlrc.py
+- use test_xdlrc.py in conda environment with python 3.9 to test
+
+### Task: Change lines in xdlrc.py to access the python structure if possible where the raw capnp is being used
+
+First Change:
+```
+site_type_in_tile_type = tile_type_r.siteTypes[site.type]
+site_type_r_idx = site_type_in_tile_type.primaryType
+site_type_r = raw_repr.siteTypeList[site_type_r_idx]
+```
+to
+```
+site_type_in_tile_type = tile_type.siteTypes[site.tile_type_site_type_index]             
+site_type_idx = site_type_in_tile_type.primaryType
+site_type_r = raw_repr.siteTypeList[site_type_idx]
+```
+
+To begin testing:
+```
+cd ~/python-fpga-interchange
+conda create --name test python=3.9
+conda activate test
+pip install pycapnp
+pip install debugpy
+```
+
+To test functioning xdlrc code:
+First, I moved `XDLRC.py` to the `python-fpga-interchange` directory, and add a subdirectory there called `interchange` containing all of the schema files.
+```
+conda activate test
+python XDLRC.py interchange xc7a100tcsg-1 artix7
+```
+
+To test for differences in the xdlrc files:
+First, I moved `test_xdlrc.py` to the `python-fpga-interchange` directory.
+```
+conda activate test
+python test_xdlrc.py 
+```
