@@ -94,6 +94,8 @@ A similar schema class can be found in `LogicalNetlist.java`, `References.java`,
 - see if you can remove the raw references from xdlrc.py
 - use test_xdlrc.py in conda environment with python 3.9 to test
 
+---
+
 ### Task: Change lines in xdlrc.py to access the python structure if possible where the raw capnp is being used
 
 First Change:

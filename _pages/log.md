@@ -20,7 +20,7 @@ slug: immerse-log
   * Researched how the mjson formatter works
 * **Wednesday**: 
   * Added Pictures and more pages to my website
-  * Immerse Main Meeting
+  * Immerse General Meeting (How to Give a Scientific Presentation) and Presentations
   * Broader Impacts Bootcamp Meeting
   * Decided on Markdown and Conda contributions to the Bootcamp website
   * Bootcamp Meeting and Followup on Git
@@ -50,7 +50,7 @@ slug: immerse-log
   * Updated fpga-tool-perf pull request and got direction to change the ci test
   * Finalized fpga-tool-perf pull request ([PR #282](https://github.com/SymbiFlow/fpga-tool-perf/pull/282))(ready for merge)
   * Finalized another fpga-tool-perf pull request ([PR #266](https://github.com/SymbiFlow/fpga-tool-perf/pull/266))(ready for merge)
-  * Wednesday General Meeting and Presentations
+  * Wednesday General Meeting (on Ethics) and Presentations
   * Wednesday Broader Impact Meeting and Followup
   * Wednesday Bootcamp Meeting and Followup on make
   * Looking through Tim's project ideas for further information -- SLURM and non-XAPPS
@@ -76,7 +76,7 @@ slug: immerse-log
   * Finalized symbiflow-examples formatters pull request ([PR #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147))
   * Worked on fpga-interchange-tests and symbiflow-arch-defs pull requests
 * **Wednesday**: 
-  * Wednesday General Meeting and Presentations
+  * Wednesday General Meeting (on The Research Enterprise) and Presentations
   * Wednesday Broader Impact Meeting and Followup
   * Wednesday Bootcamp Meeting and Followup on Python Environments
   * Additions to website notes and pages related to Broader Impact
@@ -87,7 +87,7 @@ slug: immerse-log
 * **Friday**:
   * Friday Bootcamp Meeting and Followup on Useful Python Packages
   * Got help with my website from Dr. Goeders
-  * 
+  * Updated to the most recent ubuntu
 
 ---
 
@@ -101,13 +101,152 @@ slug: immerse-log
   * Additions of website notes and pages related to new projects
   * Symbiflow-examples pull request ([PR #147](https://github.com/SymbiFlow/symbiflow-examples/pull/147)) was merged
 * **Tuesday**: 
+  * Created the brand-new [common-config repository](https://github.com/ryancj14/common-config) for Xan to beigin working.
+  * Got help from Prof. Nelson with Jekyll and webpages functionality
+* **Wednesday**: 
+  * Wednesday General Meeting (on Gender and Diversity) and Presentations
+  * Wednesday Broader Impact Meeting and Followup
+  * Wednesday Bootcamp Meeting and Followup on Documentation w/ Sphinx
+  * First meeting w/ Xan introducing the common-config project
+  * initial work on conda pull request for BYU Computing Boot Camp
+* **Thursday-Friday**: Visiting Family in Colorado
+
+---
+
+## Week 5: May 24-28, 2021
+
+* **Monday-Tuesday**: Visiting Family in Colorado
+* **Wednesday-Friday**: Visiting Fiancè's Family in Arkansas
+
+---
+
+## Week 6: May 31-June 4, 2021
+
+* **Monday**: Memorial Day
+* **Tuesday**: 
+  * worked on conda pages for computing bootcamp
+  * attended an Symbiflow interchange meeting
+  * Caught up on missed bootcamp
+* **Wednesday**: 
+  * Wednesday General Meeting (Lord of the Pubs) and Presentations
+  * My Final Wednesday Broader Impact Meeting and Followup
+  * Wednesday Bootcamp Meeting and Followup on Prjxray and Fasm
+* **Thursday**: 
+  * Finalized changes and submitted [conda pull request](https://github.com/byu-cpe/ComputingBootCamp/pull/58) to computing bootcamp
+  * Made changes and submitted [markdown pull request](https://github.com/byu-cpe/ComputingBootCamp/pull/59) to computing bootcamp
+  * Met w/ Xan about common-config repo
+* **Friday**:
+  * Wrote report to Prof. Nelson on my progress on various projects
+
+---
+
+## Week 7: June 7-11, 2021
+
+* **Monday**: 
+  * Worked on common-config pr
+  * Got this website up to full functionality
+  * Started on ecen 427 TA work
+  * Bootcamp Meeting with Tim Ansell
+  * More common-config work
+  * Reviewed interchange notes
+* **Tuesday**: 
+  * Met w/ Xan and Prof. Nelson about common-config
+  * Downloaded and ran Rapidwright using Reilly's tutorial
+* **Wednesday**: 
+  * Created and added to my [RapidWright notes](https://ryancj14.github.io/ryancj14/pages/rapidwright-work/)
+  * ...
+  * ...
+* **Thursday**: 
+* **Friday**:
+
+---
+
+## Week 8: June 14-18, 2021
+
+* **Monday-Friday**: Family Vacation in Lake Powell
+
+---
+
+## Week 9: June 21-25, 2021
+
+* **Monday**: 
+* **Tuesday**: 
 * **Wednesday**: 
 * **Thursday**: 
 * **Friday**:
 
 ---
 
-## Week 5: May 24-28, 2021
+## Week 10: June 28-July 2, 2021
+
+* **Monday**: 
+* **Tuesday**: 
+* **Wednesday**: 
+* **Thursday**: 
+* **Friday**:
+
+---
+
+## Week 11: July 5-9, 2021
+
+* **Monday**: 
+* **Tuesday**: 
+* **Wednesday**: 
+* **Thursday**: 
+* **Friday**:
+
+---
+
+## Week 12: July 12-16, 2021
+
+* **Monday**: 
+* **Tuesday**: 
+* **Wednesday**: 
+* **Thursday**: 
+* **Friday**:
+
+---
+
+## Week 13: July 19-23, 2021
+
+* **Monday**: 
+* **Tuesday-Friday**: Travel to and Wedding in Washington
+
+---
+
+## Week 14: July 26-30, 2021
+
+* **Monday-Friday**: On Honeymoon
+
+---
+
+## Week 15: August 2-6, 2021
+
+* **Monday**: 
+* **Tuesday**: 
+* **Wednesday**: 
+* **Thursday**: 
+* **Friday**:
+
+---
+
+## Week 16: August 9-13, 2021
+
+* **Monday**: 
+* **Tuesday**: 
+* **Wednesday**: 
+* **Thursday**: 
+* **Friday**:
+
+---
+
+## Week 17: August 16-20, 2021
+
+* **Monday-Friday**: On Family Vacation In Florida
+
+---
+
+## Week 18: August 23-27, 2021
 
 * **Monday**: 
 * **Tuesday**: 
@@ -150,4 +289,3 @@ Weekly Meetings:
 * Wed 12:00-1:00 -- IMMERSE General Meeting: Faculty and Student Presentations
 * Wed 1:00-1:45 -- Broader Impact Meeting: Bootcamp
 * MWF 2:00-3:15 -- Computing Boot Camp
-* TBD - Research Mtg w/ Prof. Nelson
