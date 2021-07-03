@@ -154,10 +154,14 @@ slug: immerse-log
   * Downloaded and ran Rapidwright using Reilly's tutorial
 * **Wednesday**: 
   * Created and added to my [RapidWright notes](https://ryancj14.github.io/ryancj14/pages/rapidwright-work/)
-  * ...
-  * ...
+  * Wednesday General Meeting (Scientific Literature) and Presentations
+  * Worked in Rapidwright
+  * Wednesday Bootcamp Meeting and Followup on RapidWright
 * **Thursday**: 
+  * Downloaded and worked in Interchange -- See [Symbiflow's python-fpga-interchange](https://github.com/SymbiFlow/python-fpga-interchange)
 * **Friday**:
+  * Finalized Rapidwright setup for Interchange to work
+  * Worked on ecen 427 lab 1 for Prof. Goeders
 
 ---
 
@@ -170,27 +174,63 @@ slug: immerse-log
 ## Week 9: June 21-25, 2021
 
 * **Monday**: 
+  * Bought cords for pynq board. Re-started full setup steps for Lab 1 and took notes.
+  * Updated Timecard and looked over Slack, common-config, and recent pull requests.
+  * Monday Bootcamp Meeting and Followup on Vivado Block Design
 * **Tuesday**: 
+  * Meeting w/ Prof Nelson, really starting to understand interchange and taking [good notes](https://ryancj14.github.io/ryancj14/pages/rapidwright-work/). 
 * **Wednesday**: 
+  * Prepared interchange for the work specified by Prof. Nelson
+  * Wednesday General Meeting (Networking and Resumes) and Presentations
+  * Wednesday Final Bootcamp Meeting and Followup on Vitis and HLS
 * **Thursday**: 
+  * Meeting w/ Xan
+  * Meeting w/ Reilly. See [notes](https://ryancj14.github.io/ryancj14/pages/rapidwright-work/).
+  * Meeting w/ Interchange Group
+  * Second Meeting w/ Reilly, clarifying objectives and reworking tasks.
+  * Working on xdlrc.py
+  * Working on [ecen 427 Lab 1](https://byu-cpe.github.io/ecen427/labs/hello-world/)
 * **Friday**:
+  * Reviewed common-config pull request and merged
+  * Began parsing of xdlrc.py
 
 ---
 
 ## Week 10: June 28-July 2, 2021
 
 * **Monday**: 
+  * Meeting w/ Nathan about Raspberry Pi Imager for labs
+  * Imaged new microsd card and completing setup and networking steps
+  * Finished [lab 1](https://byu-cpe.github.io/ecen427/labs/hello-world/) and submitted
+  * Cloned the [ecen427 page](https://github.com/byu-cpe/ecen427)
+  * Created a spreadsheet to keep track of lab work
+  * Did readings/study for [lab 2](https://byu-cpe.github.io/ecen427/labs/clock/)
+  * Worked on common-config
 * **Tuesday**: 
+  * Worked on and finished buttons.c for [lab 2](https://byu-cpe.github.io/ecen427/labs/clock/)
+  * Worked on and finished switches.c for [lab 2](https://byu-cpe.github.io/ecen427/labs/clock/)
+  * Worked on common-config
 * **Wednesday**: 
+  * Meeting w/ Prof. Nelson and Xan
+  * Worked on xdlrc.py
+  * Reviewed common-config pull request and merged
+  * Updated this log
 * **Thursday**: 
+  * Worked on interchange stuff (xdlrc.py)
 * **Friday**:
+  * Worked on xdlrc.py and tested using test_xdlrc.py
+  * Workd on intc.c for [lab 2](https://byu-cpe.github.io/ecen427/labs/clock/)
+  * Updated this log
+  * common-config review and message to Prof. Nelson
+  * ...
 
 ---
 
 ## Week 11: July 5-9, 2021
 
-* **Monday**: 
+* **Monday**: Independence Day
 * **Tuesday**: 
+  * ...
 * **Wednesday**: 
 * **Thursday**: 
 * **Friday**:
@@ -210,7 +250,8 @@ slug: immerse-log
 ## Week 13: July 19-23, 2021
 
 * **Monday**: 
-* **Tuesday-Friday**: Travel to and Wedding in Washington
+* **Tuesday-Thursday**: Travel to and Wedding in Washington
+* **Friday**: Pioneer Day
 
 ---
 

@@ -98,19 +98,6 @@ A similar schema class can be found in `LogicalNetlist.java`, `References.java`,
 
 ### Task: Change lines in xdlrc.py to access the python structure if possible where the raw capnp is being used
 
-First Change:
-```
-site_type_in_tile_type = tile_type_r.siteTypes[site.type]
-site_type_r_idx = site_type_in_tile_type.primaryType
-site_type_r = raw_repr.siteTypeList[site_type_r_idx]
-```
-to
-```
-site_type_in_tile_type = tile_type.siteTypes[site.tile_type_site_type_index]             
-site_type_idx = site_type_in_tile_type.primaryType
-site_type_r = raw_repr.siteTypeList[site_type_idx]
-```
-
 To begin testing:
 ```
 cd ~/python-fpga-interchange
@@ -124,12 +111,17 @@ To test functioning xdlrc code:
 First, I moved `XDLRC.py` to the `python-fpga-interchange` directory, and add a subdirectory there called `interchange` containing all of the schema files.
 ```
 conda activate test
-python XDLRC.py interchange xc7a100tcsg-1 artix7
+source rapidwright.sh
+cd ~/RapidWright
+java com.xilinx.rapidwright.interchange.DeviceResourcesExample xc7a100t
+mv xc7a100t.device ~/python-fpga-interchange/xc7a100t.device
+cd ~/python-fpga-interchange
+python XDLRC.py interchange xc7a100t.device artix7 output.xdlrc
 ```
 
 To test for differences in the xdlrc files:
-First, I moved `test_xdlrc.py` to the `python-fpga-interchange` directory.
+First, I moved `test_xdlrc.py` to the `python-fpga-interchange` directory. Then I created two xdlrc files, one in the PrimDef branch (output1.xdlrc), and one in the Ryan branch (output2.xdlrc). I put them both in the main directory.
 ```
 conda activate test
-python test_xdlrc.py 
+python test_xdlrc.py output2.xdlrc output1.xdlrc ./
 ```
