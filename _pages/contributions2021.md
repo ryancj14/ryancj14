@@ -43,26 +43,26 @@ Created `Makefile` and `.style.yapf`, and Modified `environment.yml`, `requireme
 
 ---
 
-# SymbiFlow/fpga-interchange-tests
+# SymbiFlow/common-config
 
-### - [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding a Verilog Formatter to the Makefile
-Opened __May 2021__, Merged __eventually__
+### ✓ Created the repository
 
-Created `...`, Modified `...` / + / -
-1. Updated the `Makefile` to include `make format`, an option which would format all the verilog files to a speicific style.
+### ✓ Oversaw work by Xan to populate it with community files, formatter files, and pull request/issue templates
 
-### - [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding to the README
-Opened __May 2021__, Merged __eventually__
-
-Created `...`, Modified `...` / + / -
-1. Updated `README.md` to include download and environment install instructions. 
+### - Transferred ownership to Symbiflow
 
 ---
 
-# SymbiFlow/symbiflow-arch-defs
+# SymbiFlow/fpga-interchange-tests
 
-### - [Pull Request #---](https://github.com/SymbiFlow/symbiflow-arch-defs/pull/---): Adding Formatters to the Makefile
-Opened __May 2021__, Merged __eventually__
+### - [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding 'common-config' as a subtree
+Opened __July 2021__, Merged __eventually__
 
 Created `...`, Modified `...` / + / -
-1. Updated Makefile to include `make format`, an option which would format all the verilog files to a specific style.
+1. abc
+
+### - [Pull Request #---](https://github.com/SymbiFlow/fpga-interchange-tests/pull/---): Adding to the README
+Opened __July 2021__, Merged __eventually__
+
+Created `...`, Modified `...` / + / -
+1. Updated `README.md` to include download and environment install instructions. 

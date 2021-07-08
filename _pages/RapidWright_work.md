@@ -125,3 +125,9 @@ First, I moved `test_xdlrc.py` to the `python-fpga-interchange` directory. Then 
 conda activate test
 python test_xdlrc.py output2.xdlrc output1.xdlrc ./
 ```
+
+---
+
+### Ethan's Code
+
+

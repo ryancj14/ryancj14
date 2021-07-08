@@ -8,6 +8,7 @@ type: 427ta
 
 ## Lab 1 - Done
 
+
 ## Lab 2 - In Progress
 
 ## Lab 3 --
